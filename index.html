@@ -52,6 +52,65 @@
     <br>
     <hr>
     <footer class="footer">
+        <h2>Consulte sus dudas aqui:</h2>
+        <table>
+            <form name="mi formularo" id="mi formulario" method="get">
+             <tr>
+                <td>
+                    <label for="NOMBRE">NOMBRE:</label>
+                    <input type="text" name="nombre" id="nombre" placeholder="escriba su nombre">
+
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    <label for="APELLIDO">APELLIDO:</label>
+                    <input type="text" name="apellido" id="apellido" placeholder="escriba su apellido">  
+                    
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    <label for="CORREO">CORREO:</label>         
+                    <input type="email" name="correo" id="correo" placeholder="escriba su correo">
+                    
+                </td>
+             </tr>
+             <tr>
+               <td>
+                    <label for="NOMBRE">PAIS:</label>
+                    <input type="text" name="PAIS" id="PAIS" list="PAIS" placeholder="elija su pais">
+                </td>
+                <datalist id="PAIS">
+                    <option value="Argentina" label= "Argentina"></option>
+                     <option value="Chile" label= "Chile"></option>                   
+                    <option value="Bolivia" label= "Bolivia"></option>
+                    <option value="Brasil" label= "Brasil"></option>
+                    <option value="Uruguay" label= "Uruguay"></option>
+                    <option value="Otro" label= "Otro"></option>
+                </datalist>
+ 
+             </tr>
+             <tr>
+                <td>
+                    <label for="CONSULTA">CONSULTA:</label>
+                    <br>
+                    <textarea name="CONSULTA" id="CONSULTA" cols="30" rows="10" placeholder="escriba aqui"></textarea>
+                </td>
+    
+             </tr>
+             <tr>
+                <td>
+                    <input type="submit" value="enviar"> 
+                </td>
+             </tr>
+            </form>
+        </table>
+            
+            
+        
+    </section>
+        <hr>
         <h2 id="Contacto">Contacto</h2>
         <ul>
             <li><a href="http://https://www.instagram.com/"><img src="img/Instagram-Icon.png" alt="imagen instagram" height="30"></a></li>
